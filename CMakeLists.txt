@@ -16,7 +16,7 @@ file(GLOB SOURCES "src/*.cpp")
 #set ( PROJECT_LINK_LIBS libOsal.so )
 #link_directories( ./lib )
 
-find_package(HELLO REQUIRED)
+find_package(hallo REQUIRED)
 
 add_executable(${APPLICATION_NAME} ${SOURCES})
 #target_link_libraries(${APPLICATION_NAME} ${PROJECT_LINK_LIBS} -ldl)
