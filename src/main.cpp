@@ -1,6 +1,6 @@
 #include <iostream>
 
-//#include <hello.h>
+#include <hello.h>
 
 #include "config.h"
 
