@@ -25,8 +25,7 @@ add_executable(${APPLICATION_NAME} ${SOURCES})
 configure_file(config.h.in config.h)
 
 # Include the configuration header in the build
-#target_include_directories(copa PUBLIC "${PROJECT_BINARY_DIR}" include)
-#target_include_directories(consumer PUBLIC "${PROJECT_BINARY_DIR}" include)
+target_include_directories(consumer PUBLIC "${PROJECT_BINARY_DIR}" ${hallo_INCLUDE_DIR})
 
 #set_target_properties( copa PROPERTIES ENABLE_EXPORTS 1 )
 
